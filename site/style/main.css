@@ -84,11 +84,22 @@ header > div > h1{
 
 article{
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+    max-width: 1440px;
 }
 article > .photoFirst{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     width:100%;
     max-width:1440px;
-    height:500px;
+    min-height:500px;
+    /* height:500px; */
 }
 article > .photoFirst > img{
     width:100%;
