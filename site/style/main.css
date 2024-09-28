@@ -108,3 +108,65 @@ article > .photoFirst > img{
     margin:7px;
     object-fit: cover;
 }
+article > div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+article > div > img{
+    width:100%;
+    max-width:700px;
+}
+article > div > div{
+    width:100%;
+    max-width:500px;
+}
+article > .aboutUs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+article > .aboutUs > div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    width:100%;
+    max-width: 1440px;
+}
+article > .aboutUs > div > div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    max-width: 350px;
+}
+article > .bigText{
+    width:100%;
+    max-width:1440px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+article > .bigText > button{
+    width:100%;
+    max-width:170px;
+    height:30px;
+}
+article > .aboutUs > h3{
+    margin:3%;
+}
+article > .aboutUs > div > div > img{
+    width:300px;
+}
+.aboutUs > div > div > button{
+    width:100%;
+    /* max-width:70px; */
+    height: 30px;
+}
