@@ -170,3 +170,17 @@ article > .aboutUs > div > div > img{
     /* max-width:70px; */
     height: 30px;
 }
+.threeBlock{
+    display:flex;
+    width:100%;
+    max-width: 1440px;
+    flex-wrap: wrap;
+}
+.threeBlock > ul{
+    width:100%;
+    max-width:500px;
+}
+.threeBlock > img{
+    width:100%;
+    max-width: 450px;
+}
