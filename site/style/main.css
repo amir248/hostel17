@@ -134,6 +134,12 @@ article > .photoFirst > img{
     /* margin:7px; */
     object-fit: cover;
 }
+@media(max-width:700px){
+    .photoFirst > img:nth-child(2), .photoFirst > img:nth-child(3), .photoFirst > img:nth-child(4){
+        display:none;
+    }
+}
+
 article > div{
     display:flex;
     justify-content: space-around;
