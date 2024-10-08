@@ -1,13 +1,12 @@
 const siteStatus={};
-siteStatus.click=+0;
+siteStatus.click=+0;// mabe it's non have
 document.querySelector('#menuSh').addEventListener('click',()=>{
-    console.log('oK'+ siteStatus.click);
-    siteStatus.click++;
-    if(siteStatus.click==1){
-        document.querySelector('body').style.cssText='overflow:hidden;';
-        document.querySelector('#menuSh > span:nth-child(2)').style.cssText="opacity:0;display:none;transition:ease-out 1s;";
-        document.querySelector('#menuSh > span:nth-child(1)').style.cssText="margin:3,4px; transform:rotate(35deg);transition:ease-out 1s;";
-        document.querySelector('#menuSh > span:nth-child(3)').style.cssText="margin-top:3,5px;transform:rotate(-35deg);transition:ease-out 1s;";
+    
+    document.querySelector('body').style.cssText='overflow:hidden;';
+    document.querySelector('#menuSh > span:nth-child(2)').style.cssText="opacity:0;display:none;transition:ease-out 1s;";
+    document.querySelector('#menuSh > span:nth-child(1)').style.cssText="margin:3,4px; transform:rotate(35deg);transition:ease-out 1s;";
+    document.querySelector('#menuSh > span:nth-child(3)').style.cssText="margin-top:3,5px;transform:rotate(-35deg);transition:ease-out 1s;";
+    
     let openMenuSh=document.createElement('div');
     openMenuSh.style.cssText=`
         display:flex;
@@ -26,6 +25,7 @@ document.querySelector('#menuSh').addEventListener('click',()=>{
     openMenuSh.setAttribute('id','menuShOpening');
     openMenuSh.innerHTML='There will be a menu here<br><a href="/">home</a> <a href="/#oK">first Link</a>';
     document.querySelector('main').prepend(openMenuSh);
+
     document.querySelector('#menuShOpening').addEventListener('click',()=>{
         document.querySelector('body').style.cssText=`overflow:auto;`;
         document.querySelector('#menuShOpening').remove();
@@ -39,9 +39,14 @@ document.querySelector('#menuSh').addEventListener('click',()=>{
         document.querySelector('#menuSh > span:nth-child(3)').style.cssText="margin-top:3,5px;transform:rotate(0deg);transition:ease-out 1s;";
     });
 
-    }else if(siteStatus.click==2){
-        console.log('two');
-        // let newLine=document.createElement('span');
-        // document.querySelector('#menuSh > span:nth-child(1)').append(newLine);
-    }
-})
+});
+document.querySelector('#plus').addEventListener('click',openList(x));
+function openList(x){
+    document.querySelector('p.openingList:nth-child('+`${x}`+')').addEventListener('click',()=>{
+        console.log('777 '+`${x}`);
+        
+    });
+    console.log('list oK');
+    document.querySelector('p.openinList:nth-child('+`${x}`+') > #one').innerHTML=`lorem text and all take`;
+    
+}
