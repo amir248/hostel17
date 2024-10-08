@@ -1,5 +1,6 @@
 const siteStatus={};
 siteStatus.click=+0;// mabe it's non have
+// siteStatus.oKclick='true';
 document.querySelector('#menuSh').addEventListener('click',()=>{
     
     document.querySelector('body').style.cssText='overflow:hidden;';
@@ -40,13 +41,157 @@ document.querySelector('#menuSh').addEventListener('click',()=>{
     });
 
 });
-document.querySelector('#plus').addEventListener('click',openList(x));
+// document.querySelector('#plus').addEventListener('click',openList(x));.
+
 function openList(x){
-    document.querySelector('p.openingList:nth-child('+`${x}`+')').addEventListener('click',()=>{
+    if(x==3){
+        console.log('3 ====== Ok');
+        document.querySelector('#eight').innerHTML=`lorem text and all take`;
+        document.querySelector('#seven').innerHTML=`lorem text and all take`;
+        document.querySelector('#six').innerHTML=`lorem text and all take`;
+        document.querySelector('#five').innerHTML=`lorem text and all take`;
+        document.querySelector('#four').innerHTML=`lorem text and all take`;
+        document.querySelector('#three').innerHTML=`lorem text and all take`;
+        document.querySelector('#two').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+    }else if(x==4){
         console.log('777 '+`${x}`);
-        
+        document.querySelector('#eight').innerHTML=`lorem text and all take`;
+        document.querySelector('#seven').innerHTML=`lorem text and all take`;
+        document.querySelector('#six').innerHTML=`lorem text and all take`;
+        document.querySelector('#five').innerHTML=`lorem text and all take`;
+        document.querySelector('#four').innerHTML=`lorem text and all take`;
+        document.querySelector('#three').innerHTML=`lorem text and all take`;
+        document.querySelector('#two').innerHTML=`lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        document.querySelector('#one').innerHTML=`lorem text and all take`;
+    }else if(x==5){
+        console.log('777 '+`${x}`);
+        document.querySelector('#eight').innerHTML=`lorem text and all take`;
+        document.querySelector('#seven').innerHTML=`lorem text and all take`;
+        document.querySelector('#six').innerHTML=`lorem text and all take`;
+        document.querySelector('#five').innerHTML=`lorem text and all take`;
+        document.querySelector('#four').innerHTML=`lorem text and all take`;
+        document.querySelector('#three').innerHTML=`lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        document.querySelector('#two').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`lorem text and all take`;
+    }else if(x==6){
+        console.log('777 '+`${x}`);
+        document.querySelector('#eight').innerHTML=`lorem text and all take`;
+        document.querySelector('#seven').innerHTML=`lorem text and all take`;
+        document.querySelector('#six').innerHTML=`lorem text and all take`;
+        document.querySelector('#five').innerHTML=`lorem text and all take`;
+        document.querySelector('#four').innerHTML=`lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        document.querySelector('#three').innerHTML=`lorem text and all take`;
+        document.querySelector('#two').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`lorem text and all take`;
+    }else if(x==7){
+        console.log('777 '+`${x}`);
+        document.querySelector('#eight').innerHTML=`lorem text and all take`;
+        document.querySelector('#seven').innerHTML=`lorem text and all take`;
+        document.querySelector('#six').innerHTML=`lorem text and all take`;
+        document.querySelector('#five').innerHTML=`lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        document.querySelector('#four').innerHTML=`lorem text and all take`;
+        document.querySelector('#three').innerHTML=`lorem text and all take`;
+        document.querySelector('#two').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`lorem text and all take`;
+    }else if(x==8){
+        console.log('777 '+`${x}`);
+         document.querySelector('#eight').innerHTML=`lorem text and all take`;
+        document.querySelector('#seven').innerHTML=`lorem text and all take`;
+        document.querySelector('#six').innerHTML=`lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        document.querySelector('#five').innerHTML=`lorem text and all take`;
+        document.querySelector('#four').innerHTML=`lorem text and all take`;
+        document.querySelector('#three').innerHTML=`lorem text and all take`;
+        document.querySelector('#two').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`lorem text and all take`;
+    }else if(x==9){
+        console.log('777 '+`${x}`);
+        document.querySelector('#eight').innerHTML=`lorem text and all take`;
+        document.querySelector('#seven').innerHTML=`lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        document.querySelector('#six').innerHTML=`lorem text and all take`;
+        document.querySelector('#five').innerHTML=`lorem text and all take`;
+        document.querySelector('#four').innerHTML=`lorem text and all take`;
+        document.querySelector('#three').innerHTML=`lorem text and all take`;
+        document.querySelector('#two').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`lorem text and all take`;
+    }else if(x==10){
+        console.log('777 '+`${x}`);
+        document.querySelector('#eight').innerHTML=`lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+        sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        document.querySelector('#seven').innerHTML=`Text from seven`;
+        document.querySelector('#six').innerHTML=`lorem text and all take`;
+        document.querySelector('#five').innerHTML=`lorem text and all take`;
+        document.querySelector('#four').innerHTML=`lorem text and all take`;
+        document.querySelector('#three').innerHTML=`lorem text and all take`;
+        document.querySelector('#two').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`lorem text and all take`;
+    }else{
+        console.log('ELSE')
+    }
+    return document.querySelector('p.openingList:nth-child('+`${x}`+')').addEventListener('click',()=>{
+        if(x==3){
+            console.log('777 '+`${x}`);
+            
+        }else if(x==4){
+            console.log('777 '+`${x}`);
+            document.querySelector('#two').innerHTML=`lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        }else if(x==5){
+            console.log('777 '+`${x}`);
+            document.querySelector('#three').innerHTML=`lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
+            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        }else{
+            console.log('ELSE')
+        }
     });
     console.log('list oK');
-    document.querySelector('p.openinList:nth-child('+`${x}`+') > #one').innerHTML=`lorem text and all take`;
     
 }
+// openList();
