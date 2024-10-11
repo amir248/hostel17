@@ -312,10 +312,12 @@ article > .aboutUs > div > div > img{
     min-height:400px;
     margin-top:1%;
     margin-bottom:1%;
+    flex-direction: column;
 }
 .lastBlock > h3{
     width:100%;
     max-width:900px;
+    margin-bottom:1%;
 }
 footer > hr{
     width:100%;

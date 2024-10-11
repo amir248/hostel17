@@ -143,8 +143,31 @@
                 <p class="openingList" onclick="openList(10)"><span id="eight">Question text goes here </span><span id="plus"></span></p>
             </div>
             <div class="lastBlock">
-                <h3>"A customer testimonial that highlights features and answers potential customer doubts about your product or service. Showcase testimonials from a similar demographic to your customers."</h3>
-
+                <h3>"Отзовы посетителей: "</h3>
+                <!-- <div id="reviews"> -->
+                    <div style="width:100%;height:800px;overflow:hidden;position:relative;"><iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget//89688252265?comments"></iframe>
+                      <a href="https://yandex.ru/maps/org/hostel_17/89688252265" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0">Hostel 17</a>
+                      </div>
+                  <!-- </div> -->
+                  <script>
+                    let width;
+                    if(window.innerWidth<760){
+                      width=window.innerWidth+"px";
+                    }else{
+                      width=760+"px";
+                    }
+                    document.querySelector('section.classMap > div > iframe').style.cssText=`
+                      width:${width};
+                      height:400px;
+                    `;
+                    document.querySelector('.reviews > div > div').style.cssText=`
+                      width: ${width};
+                      height:800px;
+                      overflow:hidden;
+                      position:relative;
+                    `;
+              
+                  </script>
             </div>
             <footer>
                 <hr>
