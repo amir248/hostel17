@@ -51,6 +51,11 @@ header > nav > ul > li > a{
 header > nav > ul > li > a:hover{
     color:rgb(105, 184, 211);
 }
+body > main > header > div:nth-child(3) > a > img{
+    width:70px;
+    height: 70px;
+}
+
 #menuSh > span{
     display:none;
     width:77px;
@@ -100,6 +105,9 @@ header > div{
     width:100%;
     max-width:1300px;
     flex-wrap: wrap;
+}
+header > div:nth-child(3){
+    justify-content: center;
 }
 header > div > div{
     display:flex;
