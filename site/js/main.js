@@ -46,19 +46,15 @@ document.querySelector('#menuSh').addEventListener('click',()=>{
 function openList(x){
     if(x==3){
         console.log('3 ====== Ok');
-        document.querySelector('#eight').innerHTML=`lorem text and all take`;
+        document.querySelector('#eight').innerHTML=`щцфутращцшуат`;
         document.querySelector('#seven').innerHTML=`lorem text and all take`;
         document.querySelector('#six').innerHTML=`lorem text and all take`;
         document.querySelector('#five').innerHTML=`lorem text and all take`;
         document.querySelector('#four').innerHTML=`lorem text and all take`;
         document.querySelector('#three').innerHTML=`lorem text and all take`;
         document.querySelector('#two').innerHTML=`lorem text and all take`;
-        document.querySelector('#one').innerHTML=`lorem text and all take
-            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
-            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
-            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
-            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
-            sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
+        document.querySelector('#one').innerHTML=`Оплата: <br>Оплатить можно наличными в тенге или по карте виза, мастеркард, американ экспресс.
+`;
     }else if(x==4){
         console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`lorem text and all take`;
@@ -73,7 +69,7 @@ function openList(x){
         sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
         sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
         sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
-        document.querySelector('#one').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`оплата`;
     }else if(x==5){
         console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`lorem text and all take`;
@@ -88,7 +84,7 @@ function openList(x){
         sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j lorem text and all take
         sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
         document.querySelector('#two').innerHTML=`lorem text and all take`;
-        document.querySelector('#one').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`оплата`;
     }else if(x==6){
         console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`lorem text and all take`;
@@ -103,7 +99,7 @@ function openList(x){
         sfhoiewahigfnhdsoivga ewoirgtaewiurogftewaf;oiewjpfo j`;
         document.querySelector('#three').innerHTML=`lorem text and all take`;
         document.querySelector('#two').innerHTML=`lorem text and all take`;
-        document.querySelector('#one').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`оплата`;
     }else if(x==7){
         console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`lorem text and all take`;
@@ -118,7 +114,7 @@ function openList(x){
         document.querySelector('#four').innerHTML=`lorem text and all take`;
         document.querySelector('#three').innerHTML=`lorem text and all take`;
         document.querySelector('#two').innerHTML=`lorem text and all take`;
-        document.querySelector('#one').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`оплата`;
     }else if(x==8){
         console.log('777 '+`${x}`);
          document.querySelector('#eight').innerHTML=`lorem text and all take`;
@@ -133,7 +129,7 @@ function openList(x){
         document.querySelector('#four').innerHTML=`lorem text and all take`;
         document.querySelector('#three').innerHTML=`lorem text and all take`;
         document.querySelector('#two').innerHTML=`lorem text and all take`;
-        document.querySelector('#one').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`оплата`;
     }else if(x==9){
         console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`lorem text and all take`;
@@ -148,7 +144,7 @@ function openList(x){
         document.querySelector('#four').innerHTML=`lorem text and all take`;
         document.querySelector('#three').innerHTML=`lorem text and all take`;
         document.querySelector('#two').innerHTML=`lorem text and all take`;
-        document.querySelector('#one').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`оплата`;
     }else if(x==10){
         console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`lorem text and all take
@@ -163,7 +159,7 @@ function openList(x){
         document.querySelector('#four').innerHTML=`lorem text and all take`;
         document.querySelector('#three').innerHTML=`lorem text and all take`;
         document.querySelector('#two').innerHTML=`lorem text and all take`;
-        document.querySelector('#one').innerHTML=`lorem text and all take`;
+        document.querySelector('#one').innerHTML=`оплата`;
     }else{
         console.log('ELSE')
     }
