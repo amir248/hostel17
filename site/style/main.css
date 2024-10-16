@@ -186,6 +186,12 @@ body > main > article > div > div > h3 > button{
     width:200px;
     min-height:50px;
     font-size: 27px;
+    transition:ease-out 1s;
+}
+body > main > article > div > div > h3 > button:hover{
+    transition:ease-out 1s;
+    color:#FE682F;
+    /* background: green; */
 }
 .aboutUs > div > div > button{
     width:270px;
