@@ -147,7 +147,7 @@ article > .photoFirst{
     min-height:500px;
     /* height:500px; */
 }
-article > .photoFirst > img{
+article > .photoFirst > picture > img{
     width:100%;
     max-width:300px;
     height:417px;
