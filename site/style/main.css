@@ -157,8 +157,11 @@ article > .photoFirst > picture > img{
     margin-bottom:3%;
 }
 @media(max-width:700px){
-    .photoFirst > img:nth-child(2), .photoFirst > img:nth-child(3), .photoFirst > img:nth-child(4){
+    .photoFirst > picture:nth-child(2) > img, .photoFirst > picture:nth-child(3) >  img, .photoFirst > picture:nth-child(4) >  img{
         display:none;
+    }
+    article > .photoFirst{
+        justify-content: center;
     }
 }
 
