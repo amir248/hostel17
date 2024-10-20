@@ -96,7 +96,7 @@ header > nav > ul > li{
     width:90px;
 }
 header > nav > ul > li:nth-child(2){
-    min-width:137px;
+    /* min-width:137px; */
 }
 header > div{
     display:flex;

@@ -27,7 +27,7 @@ document.querySelector('#menuSh').addEventListener('click',()=>{
     //---------------------------------------------------
     // MENU THAT HERE!!!!
     //---------------------------------------------------
-    openMenuSh.innerHTML='There will be a menu here<br><a href="/">home</a> <a href="/#oK">first Link</a>';
+    openMenuSh.innerHTML='There will be a menu here<br><a href="/">home</a> <a href="/#price">Price</a> <a href="tel:+7 775 190 3034">+7 775 190 3034</a> ';
     document.querySelector('main').prepend(openMenuSh);
 
     document.querySelector('#menuShOpening').addEventListener('click',()=>{
