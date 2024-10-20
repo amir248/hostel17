@@ -24,6 +24,9 @@ document.querySelector('#menuSh').addEventListener('click',()=>{
         flex-direction:column;
     `;
     openMenuSh.setAttribute('id','menuShOpening');
+    //---------------------------------------------------
+    // MENU THAT HERE!!!!
+    //---------------------------------------------------
     openMenuSh.innerHTML='There will be a menu here<br><a href="/">home</a> <a href="/#oK">first Link</a>';
     document.querySelector('main').prepend(openMenuSh);
 

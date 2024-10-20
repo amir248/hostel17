@@ -253,7 +253,7 @@ article > .aboutUs > h3{
     margin-top:3%;
     /* margin-bottom:7px; */
 }
-article > .aboutUs > div > div > img{
+article > .aboutUs > div > div > picture > img{
     width:300px;
 }
 .aboutUs > div > div > a{
