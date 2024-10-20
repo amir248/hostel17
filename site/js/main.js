@@ -69,7 +69,14 @@ function openList(x){
     text.eightTitle='Можно приходить и уходить ночью?';
     text.eightArticle='Приходить и уходить ночью можно, для этого есть ключ.';
 
+    document.querySelector('#one').innerHTML=`${text.oneTitle}`;
     document.querySelector('#two').innerHTML=`${text.twoTitle}`;
+    document.querySelector('#three').innerHTML=`${text.threeTitle}`;
+    document.querySelector('#four').innerHTML=`${text.fourTitle}`;
+    document.querySelector('#five').innerHTML=`${text.fiveTitle}`;
+    document.querySelector('#six').innerHTML=`${text.sixTitle}`;
+    document.querySelector('#seven').innerHTML=`${text.sevenTitle}`;
+    document.querySelector('#eight').innerHTML=`${text.eightTitle}`;
     if(x==3){
         document.querySelector('.openingList').style.overflow=`hidden`;
         console.log('3 ====== Ok');
