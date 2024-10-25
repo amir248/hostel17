@@ -187,3 +187,6 @@ function openList(x){
     
 }
 // openList();
+const d = new Date();
+console.log(d.getFullYear());
+document.querySelector('#year').innerHTML=  `${d.getFullYear()}`;
