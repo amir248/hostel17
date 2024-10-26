@@ -34,7 +34,7 @@ function openList(x){
     document.querySelector('#eight').innerHTML=`${text.eightTitle}`;
     if(x==3){
         document.querySelector('.openingList').style.overflow=`hidden`;
-        console.log('3 ====== Ok');
+        // console.log('3 ====== Ok');
         document.querySelector('#eight').innerHTML=`${text.eightTitle}`;
         document.querySelector('#seven').innerHTML=`${text.sevenTitle}`;
         document.querySelector('#six').innerHTML=`${text.sixTitle}`;
@@ -44,7 +44,7 @@ function openList(x){
         document.querySelector('#two').innerHTML=`${text.twoTitle}`;
         document.querySelector('#one').innerHTML=`${text.oneTitle}` +'<br>'+`${text.oneArticle}`;
     }else if(x==4){
-        console.log('777 '+`${x}`);
+        // console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`${text.eightTitle}`;
         document.querySelector('#seven').innerHTML=`${text.sevenTitle}`;
         document.querySelector('#six').innerHTML=`${text.sixTitle}`;
@@ -54,7 +54,7 @@ function openList(x){
         document.querySelector('#two').innerHTML=`${text.twoTitle}`+'<br>'+`${text.twoArticle}`;
         document.querySelector('#one').innerHTML=`${text.oneTitle}`;
     }else if(x==5){
-        console.log('777 '+`${x}`);
+        // console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`${text.eightTitle}`;
         document.querySelector('#seven').innerHTML=`${text.sevenTitle}`;
         document.querySelector('#six').innerHTML=`${text.sixTitle}`;
@@ -64,7 +64,7 @@ function openList(x){
         document.querySelector('#two').innerHTML=`${text.twoTitle}`;
         document.querySelector('#one').innerHTML=`${text.oneTitle}`;
     }else if(x==6){
-        console.log('777 '+`${x}`);
+        // console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`${text.eightTitle}`;
         document.querySelector('#seven').innerHTML=`${text.sevenTitle}`;
         document.querySelector('#six').innerHTML=`${text.sixTitle}`;
@@ -74,7 +74,7 @@ function openList(x){
         document.querySelector('#two').innerHTML=`${text.twoTitle}`;
         document.querySelector('#one').innerHTML=`${text.oneTitle}`;
     }else if(x==7){
-        console.log('777 '+`${x}`);
+        // console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`${text.eightTitle}`;
         document.querySelector('#seven').innerHTML=`${text.sevenTitle}`;
         document.querySelector('#six').innerHTML=`${text.sixTitle}`;
@@ -84,7 +84,7 @@ function openList(x){
         document.querySelector('#two').innerHTML=`${text.twoTitle}`;
         document.querySelector('#one').innerHTML=`${text.oneTitle}`;
     }else if(x==8){
-        console.log('777 '+`${x}`);
+        // console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`${text.eightTitle}`;
         document.querySelector('#seven').innerHTML=`${text.sevenTitle}`;
         document.querySelector('#six').innerHTML=`${text.sixTitle}`+"<br>"+`${text.sixAritle}`;
@@ -94,7 +94,7 @@ function openList(x){
         document.querySelector('#two').innerHTML=`${text.twoTitle}`;
         document.querySelector('#one').innerHTML=`${text.oneTitle}`;
     }else if(x==9){
-        console.log('777 '+`${x}`);
+        // console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`${text.eightTitle}`;
         document.querySelector('#seven').innerHTML=`${text.sevenTitle}`+"<br>"+`${text.sevenArticle}`;
         document.querySelector('#six').innerHTML=`${text.sixTitle}`;
@@ -104,7 +104,7 @@ function openList(x){
         document.querySelector('#two').innerHTML=`${text.twoTitle}`;
         document.querySelector('#one').innerHTML=`${text.oneTitle}`;
     }else if(x==10){
-        console.log('777 '+`${x}`);
+        // console.log('777 '+`${x}`);
         document.querySelector('#eight').innerHTML=`${text.eightTitle}`+"<br>"+`${text.eightArticle}`;
         document.querySelector('#seven').innerHTML=`${text.sevenTitle}`;
         document.querySelector('#six').innerHTML=`${text.sixTitle}`;
@@ -114,7 +114,7 @@ function openList(x){
         document.querySelector('#two').innerHTML=`${text.twoTitle}`;
         document.querySelector('#one').innerHTML=`${text.oneTitle}`;
     }else{
-        console.log('ELSE')
+        // console.log('ELSE')
     }
     // return document.querySelector('p.openingList:nth-child('+`${x}`+')').addEventListener('click',()=>{
     //     if(x==3){
@@ -135,7 +135,7 @@ function openList(x){
     //         console.log('ELSE')
     //     }
     // });
-    console.log('list oK');
+    // console.log('list oK');
     
 }
 openList();

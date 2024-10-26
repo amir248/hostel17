@@ -9,7 +9,9 @@ function openList(){
             openListQuestion.src='site/js/openList.js';
             document.querySelector('body').append(openListQuestion);
         };
-        resolve(listOk());
+        setTimeout(()=>{
+          resolve(listOk());
+        },0);
     });
 };//openList();
 
@@ -18,19 +20,21 @@ function newDate(){
         function okDate(){
             const d = new Date();
             document.querySelector('#year').innerHTML=  `${d.getFullYear()}`;
+            console.log('vLog!!!!!');
         }
         setTimeout(()=>{
             resolve(okDate());
-        });
+        },3000);
     });
 };//newDate();
+const d = new Date();
+            document.querySelector('#year').innerHTML=  `${d.getFullYear()}`;
 function menu(){
     return new Promise((resolve) => {
             function openMenu(){
                 const menu=document.createElement('script');
                 menu.src='site/js/menu.js';
                 document.querySelector('body').append(menu);
-                console.log('0000000000');
             }
         setTimeout(()=>{
             resolve(openMenu());
