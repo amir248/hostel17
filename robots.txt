@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /disallow  /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://----.kz/sitemap.xml
