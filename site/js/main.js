@@ -25,7 +25,7 @@ function newsDate(){
         }
         setTimeout(()=>{
             resolve(okDate());
-        },3000);
+        },0);
     });
 };//newDate();
             // const d = new Date();
