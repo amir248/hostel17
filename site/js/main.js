@@ -1,7 +1,7 @@
 const siteStatus={}; //this object has never been used! 
 siteStatus.click=+0;// mabe it's non have
 
-window.addEventListener('DOMContentLoaded',openList);
+// window.addEventListener('DOMContentLoaded',openList);
 function openList(){
     return new Promise((resolve)=>{
         function listOk(){
@@ -15,20 +15,21 @@ function openList(){
     });
 };//openList();
 
-function newDate(){
+function newsDate(){
     return new Promise((resolve)=>{
         function okDate(){
+                // console.log('oK Date here');
             const d = new Date();
             document.querySelector('#year').innerHTML=  `${d.getFullYear()}`;
-            console.log('vLog!!!!!');
+            // console.log('vLog!!!!!');
         }
         setTimeout(()=>{
             resolve(okDate());
         },3000);
     });
 };//newDate();
-const d = new Date();
-            document.querySelector('#year').innerHTML=  `${d.getFullYear()}`;
+            // const d = new Date();
+            // document.querySelector('#year').innerHTML=  `${d.getFullYear()}`;
 function menu(){
     return new Promise((resolve) => {
             function openMenu(){
@@ -45,7 +46,7 @@ function menu(){
 window.addEventListener('DOMContentLoaded',mainFunction);
 async function mainFunction(){
     await menu();
-    await openListQuestion();
+    await openList();
 
-    await newDate();
+    await newsDate();
 }//async
