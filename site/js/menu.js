@@ -9,6 +9,30 @@ document.querySelector('#menuSh').addEventListener('click',()=>{
     openMenuSh.style.cssText=`
         display:flex;
         width:100%;
+        height:0vh;
+        background:rgba(255,255,255,0.5);
+        position:fixed;
+        justify-content:center;
+        align-items:center;
+        font-size:7px;
+        z-index:99;
+        top:0;
+        transition:ease-out 1s;
+        flex-direction:column;
+        opacity:0;
+    `;
+    openMenuSh.setAttribute('id','menuShOpening');
+    //---------------------------------------------------
+    // MENU THAT HERE!!!!
+    //---------------------------------------------------
+    openMenuSh.innerHTML='There will be a menu here<br><a href="/">home</a> <a href="/#price">Price</a> <a href="tel:+7 775 190 3034">+7 775 190 3034</a> ';
+    document.querySelector('main').prepend(openMenuSh);
+    setTimeout(()=>{
+        openMenuSh.style.cssText=`
+        opacity:1;
+        transition:ease-out 1s;
+        display:flex;
+        width:100%;
         height:100vh;
         background:rgba(255,255,255,0.5);
         position:fixed;
@@ -20,16 +44,31 @@ document.querySelector('#menuSh').addEventListener('click',()=>{
         transition:ease-out 1s;
         flex-direction:column;
     `;
-    openMenuSh.setAttribute('id','menuShOpening');
-    //---------------------------------------------------
-    // MENU THAT HERE!!!!
-    //---------------------------------------------------
-    openMenuSh.innerHTML='There will be a menu here<br><a href="/">home</a> <a href="/#price">Price</a> <a href="tel:+7 775 190 3034">+7 775 190 3034</a> ';
-    document.querySelector('main').prepend(openMenuSh);
-
+    },70);
     document.querySelector('#menuShOpening').addEventListener('click',()=>{
         document.querySelector('body').style.cssText=`overflow:auto;`;
-        document.querySelector('#menuShOpening').remove();
+        setTimeout(()=>{
+            openMenuSh.style.cssText=`
+            opacity:1;
+            transition:ease-out 1s;
+            display:flex;
+            width:100%;
+            height:0vh;
+            background:rgba(255,255,255,0.5);
+            position:fixed;
+            justify-content:center;
+            align-items:center;
+            font-size:0px;
+            z-index:99;
+            bottom:0;
+            transition:ease-out 1s;
+            flex-direction:column;
+        `;
+            
+        },10);
+        setTimeout(()=>{
+            document.querySelector('#menuShOpening').remove();
+        },400);
         siteStatus.click=0;
         document.querySelector('#menuSh > span:nth-child(2)').style.cssText=`
         display:block;
