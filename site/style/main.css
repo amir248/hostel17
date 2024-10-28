@@ -81,6 +81,9 @@ body > main > header > div:nth-child(3) > a > img{
         display:block;
     }
 }
+#menuShOpening > a{
+    margin:3%;
+}
 .logo{
     display:flex;
     justify-content: center;
