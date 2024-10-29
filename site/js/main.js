@@ -42,11 +42,18 @@ function menu(){
         },0);
     });
 };//menu();
-
+function nextPromise(){
+    return new Promise(()=>{
+        function oKhire(){
+            console.log('I\'m Rich right here now');
+        }
+    });
+}
 window.addEventListener('DOMContentLoaded',mainFunction);
 async function mainFunction(){
     await menu();
     await openList();
 
     await newsDate();
+    await nextPromise();
 }//async

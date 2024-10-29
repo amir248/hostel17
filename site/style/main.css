@@ -185,10 +185,10 @@ article > div > picture > img{
     display:flex;
 }
 
-article > div > div{
+/* article > div > div{
     width:100%;
     max-width:500px;
-}
+} */
 body > main > article > div > div > h3 > button{
     width:200px;
     min-height:50px;
